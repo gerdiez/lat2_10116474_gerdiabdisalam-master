@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LAT2_AKBIF9_10116405_FAHRIHFATAHILAH</string>
+    <string name="register">Doesn\'t have Account ? <B> Register</B></string>
+    <string name="gerdi">Gerdi Abdi Salam</string>
+    <string-array name="nama">
+        <item><font fgcolor="#808284">Blood Type</font></item>
+    </string-array>
+    <string-array name="job">
+        <item><font fgcolor="#808284">Job</font></item>
+    </string-array>
+    <string-array name="Reshus">
+        <item><font fgcolor="#808284">Reshus</font></item>
+    </string-array>
+</resources>

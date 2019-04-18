@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40B4E7"
+    android:orientation="horizontal"
+    tools:context=".AlmostThere">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear1"
+            android:layout_centerInParent="true"
+            android:textColor="#FFFFFF"
+            android:text="Almost There"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/linear1"
+        android:id="@+id/linear2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:text="Thank your for registering with us. One more\nstep, you need to check your email \n to activate your account"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/next"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonrippleblue"
+            android:text="LOGIN"
+            android:onClick="verify"
+            android:textColor="#FFFFFF"
+            android:textStyle="normal" />
+    </LinearLayout>
+</RelativeLayout>
