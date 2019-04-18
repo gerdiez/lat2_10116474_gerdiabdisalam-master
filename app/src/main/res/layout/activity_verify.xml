@@ -59,7 +59,7 @@
             android:layout_width="320dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="40dp"
-            android:hint="enter verifcation code here"
+            android:hint="enter verification code here"
             android:textAlignment="center"
             android:backgroundTint="#FFFFFF"
             android:textColor="#FFFFFFFF"
